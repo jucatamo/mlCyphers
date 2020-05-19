@@ -1,0 +1,11 @@
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Name: FooBar
+Version: 0.1
+Synopsis: x
+Authors: Me <me@x.com>
+License: LGPL with OCaml linking exception
+
+Executable "main"
+    Path: src
+    MainIs: main.ml
